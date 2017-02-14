@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>White India</title>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+    <link href="css/index.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style>
+       #map {
+        height: 100vh;
+        /*width: 100%;*/
+       }
+    </style>
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <header class="navbar navbar-default navbar-fixed-top header" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">White India</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse navbar-right">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Team</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#partners">Partners</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#queries">Query</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </header>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xlg-12">
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
+                                <img class="" src="images/background2.jpg" alt="First slide" width="100%">
+                                <div class="carousel-caption">
+                                    <h3>World on your finger tips</h3>
+                                    <p>Get everything into your hands. Get the best services with the leading technologies of the world</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class="" src="images/background2.jpg" alt="Second slide" width="100%">
+                                <div class="carousel-caption">
+                                    <h3>World on your finger tips</h3>
+                                    <p>Get everything into your hands. Get the best services with the leading technologies of the world</p>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class="" src="images/background3.jpg" alt="Third slide" width="100%">
+                                <div class="carousel-caption">
+                                    <h3>World on your finger tips</h3>
+                                    <p>Get everything into your hands. Get the best services with the leading technologies of the world</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="left carousel-control" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control right" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row">
+                <h2 class="innerHead">About Us</h2>
+                <h3 class="lineWithText"><span><i class="fa fa-paper-plane-o"></i></span></h3>
+                <div class="mainDiv">
+                <div class="circle leftTop">
+                    <div><i class="fa fa-edit"></i>
+                    <p>What We Do</p></div>
+                </div>
+                <div class="circle leftBottom">
+                    <div><i class="fa fa-edit"></i>
+                    <p>What We Do</p></div>
+                </div>
+                <div class="circle bottom">
+                    <div><i class="fa fa-edit"></i>
+                    <p>What We Do</p></div>
+                </div>
+                <div class="circle rightBottom">
+                    <div><i class="fa fa-edit"></i>
+                    <p>What We Do</p></div>
+                </div>
+                <div class="circle rightTop">
+                    <div><i class="fa fa-edit"></i>
+                    <p>What We Do</p></div>
+                </div>
+                <div class="circle top">
+                    <div><i class="fa fa-edit"></i>
+                    <p>What We Do</p></div>
+                </div>
+                <div class="circle center">
+                    <img src="images/rupeeWhite.png" class="rupeeImg image">
+                    <img src="images/arrowS.png" class="arrowImg image">
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="row text-center">
+                <h2 class="innerHead">Services</h2>
+                <h3 class="lineWithText"><span><i class="fa fa-globe"></i></span></h3>
+                <br><br>
+                <div class="col-md-2 col-md-offset-1 text-center">
+                    <span class="serviceSelected service"><i class="fa fa-pencil"></i></span>
+                    <h5 class="serviceTitle">Design & markup</h5>
+                </div>
+
+                <!-- <div style="clear: both"></div> -->
+
+                <div class="col-md-2">
+                    <span class="service"><i class="fa fa-wordpress"></i></span>
+                    <h5 class="serviceTitle">Web Develoment</h5>
+                </div>
+
+                <div class="col-md-2">
+                    <span class="service"><i class="fa fa-gamepad"></i></span>
+                    <h5 class="serviceTitle">Apps & Game Develoment</h5>
+                </div>
+
+                <div class="col-md-2">
+                    <span class="service"><i class="fa fa-database"></i></span>
+                    <h5 class="serviceTitle">Big Data</h5>
+                </div>
+                <div class="col-md-2">
+                    <span class="service"><i class="fa fa-share-square-o"></i></span>
+                    <h5 class="serviceTitle">Digital Marketing</h5>
+                </div>
+
+                <!-- <div style="clear:both"></div> -->
+            </div>
+
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h4>Grahics Design <i class="fa fa-pencil"></i></h4>
+                    <p>Here are the service offered under this section. Here are the service offered under this section.Here are the service offered under this section.Here are the service offered under this section</p>
+                </div>
+                <div class="col-md-10 col-md-offset-1">
+                    <h4>Logo Design <i class="fa fa-pencil"></i></h4>
+                    <p>Here are the service offered under this section.Here are the service offered under this section.Here are the service offered under this section.Here are the service offered under this section.Here are the service offered under this section.Here are the service offered under this section.Here are the service offered under this section</p>
+                </div>
+                <div class="col-md-10 col-md-offset-1">
+                    <h4>Web Design <i class="fa fa-pencil"></i></h4>
+                    <p>Here are the service offered under this section.Here are the service offered under this section.Here are the service offered under this section.Here are the service offered under this section</p>
+                </div>
+                <div class="col-md-10 col-md-offset-1">
+                    <h4>Front End <i class="fa fa-pencil"></i></h4>
+                    <p>Here are the service offered under this section.Here are the service offered under this section.Here are the service offered under this section.Here are the service offered under this section</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- team section-->
+    <section id="team" class="team-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center"><h2 class="innerHead">Team</h2></div>
+                <div style="clear: both"></div>
+                <h3 class="lineWithText"><span><i class="fa fa-users"></i></span></h3>
+
+                <div class="col-md-2 col-md-offset-2 text-center">
+                    <div class="team"></div>
+                    <h5>Name</h5>
+                    <h6>Designation</h6>
+                </div>
+
+                <!-- <div style="clear: both"></div> -->
+
+                <div class="col-md-2">
+                    <div class="team"></div>
+                    <h5>Name</h5>
+                    <h6>Designation</h6>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="team"></div>
+                    <h5>Name</h5>
+                    <h6>Designation</h6>
+                </div>
+                <div class="col-md-2">
+                    <div class="team"></div>
+                    <h5>Name</h5>
+                    <h6>Designation</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--partners section -->
+    <section id="partners" class="partners-section">
+        <div class="container">
+            <div class="row">
+                <h2 class="innerHead">Partners</h2>
+                <h3 class="lineWithText"><span><i class="fa fa-building"></i></span></h3>
+                <div class="col-md-2 col-md-offset-2">
+                    <div class="partner"></div>
+                    <h4>Partner1</h4>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="partner"></div>
+                    <h4>Partner2</h4>
+                </div>
+
+                <div class="col-md-2">
+                    <div class="partner"></div>
+                    <h4>Partner3</h4>
+                </div>
+                <div class="col-md-2">
+                    <div class="partner"></div>
+                    <h4>Partner4</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--queries section-->
+    <section id="queries" class="queries-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center"><h2 class="innerHead">Write To Us</h2></div>
+                <div style="clear: both"></div>
+                <h3 class="lineWithText"><span><i class="fa fa-envelope-o"></i></span></h3>
+                <div class="col-md-6 col-md-offset-3">
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" class="input form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="askUs">Write To Us:</label>
+                        <textarea type="text" rows="5" name="email" id="askUs" class="input form-control"></textarea>
+                    </div>
+                    <a href="mailto:whiteindia@gmail.com" class="btn btn-primary form-control">Send</a>
+                    <br><br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container-fluid">
+            <div class="row">
+                <h2 class="innerHead">Reach Us</h2>
+                <h3 class="lineWithText"><span><i class="fa fa-paper-plane-o"></i></span></h3>
+                <!-- <hr class="lineWithText"><h3><span class="textMiddle"><i class="fa fa-facebook"></i></span></h3> -->
+                <div id="map"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" >
+        <div class="container">
+            <div class="navbar-header">
+                <p class="navbar-brand"><i class="fa fa-copyright"></i> Copyright all rights reserved @ White India</p>
+            </div>
+             <div class="navbar-right icons">
+                <ul class="nav navbar-nav">
+                    <li><a target="_blank" href="http://www.facebook.com/whiteIndia"><i class="fa fa-facebook"></i></a></li>
+                    <li><a target="_blank" href="https://twitter.com/whiteIndia"><i class="fa fa-twitter"></i></a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/company/whiteIndia"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a target="_blank" href="https://plus.google.com/whiteIndia"><i class="fa fa-google-plus"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+
+    <script type="text/javascript">
+        $(".carousel").carousel({
+            interval : 2000
+        });
+    </script>
+
+
+    <script>
+function myMap() {
+  var myCenter = new google.maps.LatLng(17.7,83.3);
+  // var mycenter2 = new google.maps.LatLng(16,80);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 5};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter, animation: google.maps.Animation.BOUNCE});
+
+  var infowindow = new google.maps.InfoWindow({
+    content: "<img class='image1' src='images/tIndia1.jpg'><h6><b>" + "White India Pvt Ltd" + "</b></h6><p>" + "Vizag" + "</p>"
+  });
+
+  google.maps.event.addListener(marker, 'click', function() {
+  infowindow.open(map,marker);
+  });
+
+  infowindow.open(map,marker);
+  marker.setMap(map);
+}
+</script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+</body>
+
+</html>
