@@ -4,9 +4,9 @@ body,html {
     padding: 0;
     width: 100%;
 }
-.header a {
+/*.header a {*/
     /*color: white !important;*/
-}
+/*}*/
 #intro {
     /*background-image: url("../images/tIndia1.jpg");*/
     background-repeat: no-repeat;
@@ -168,7 +168,7 @@ body,html {
     color: #032990;
 }
 .team {
-    background: white;
+    background:#032990;
     border-radius: 50%;
     width: 100%;
     height: 150px;
@@ -189,3 +189,273 @@ body,html {
 .serviceTitle {
     margin-top: 25%;
 }
+@media(max-width: 600px){
+    .leftTop {
+    top: 104%;
+}
+.leftBottom {
+    top: 136%;
+}
+.bottom {
+    top: 149%;
+}
+.rightBottom {
+    top: 136%;
+}
+.rightTop {
+    top: 104%;
+}
+.top {
+    top: 90%;
+}
+.center {
+    top: 120%
+}
+}
+@media(min-width:600px) and (max-width:800px){
+   .leftTop {
+    top: 114%;
+}
+.leftBottom {
+    top: 146%;
+}
+.bottom {
+    top: 159%;
+}
+.rightBottom {
+    top: 146%;
+}
+.rightTop {
+    top: 114%;
+}
+.top {
+    top: 100%;
+}
+.center {
+    top: 130%
+} 
+}
+@media(min-width:846px) and (max-width:890px) {
+.leftTop {
+    top: 134%;
+}
+.leftBottom {
+    top: 166%;
+}
+.bottom {
+    top: 179%;
+}
+.rightBottom {
+    top: 166%;
+}
+.rightTop {
+    top: 134%;
+}
+.top {
+    top: 120%;
+}
+.center {
+    top: 150%
+}
+
+}
+
+@media(min-width:890px) and (max-width:945px) {
+.leftTop {
+    top: 139%;
+}
+.leftBottom {
+    top: 171%;
+}
+.bottom {
+    top: 184%;
+}
+.rightBottom {
+    top: 171%;
+}
+.rightTop {
+    top: 139%;
+}
+.top {
+    top: 125%;
+}
+.center {
+    top: 155%
+}
+
+}
+
+@media(min-width:945px) and (max-width:1020px) {
+.leftTop {
+    top: 144%;
+}
+.leftBottom {
+    top: 176%;
+}
+.bottom {
+    top: 189%;
+}
+.rightBottom {
+    top: 176%;
+}
+.rightTop {
+    top: 144%;
+}
+.top {
+    top: 130%;
+}
+.center {
+    top: 160%
+}
+
+}
+
+@media(min-width:1020px) and (max-width:1070px) {
+.leftTop {
+    top: 149%;
+}
+.leftBottom {
+    top: 181%;
+}
+.bottom {
+    top: 194%;
+}
+.rightBottom {
+    top: 181%;
+}
+.rightTop {
+    top: 149%;
+}
+.top {
+    top: 135%;
+}
+.center {
+    top: 165%
+}
+
+}
+
+@media(min-width:1070px) and (max-width:1125px) {
+.leftTop {
+    top: 154%;
+}
+.leftBottom {
+    top: 186%;
+}
+.bottom {
+    top: 199%;
+}
+.rightBottom {
+    top: 186%;
+}
+.rightTop {
+    top: 154%;
+}
+.top {
+    top: 140%;
+}
+.center {
+    top: 170%
+}
+
+}
+
+@media(min-width:1125px) and (max-width:1400px) {
+.leftTop {
+    top: 159%;
+}
+.leftBottom {
+    top: 191%;
+}
+.bottom {
+    top: 204%;
+}
+.rightBottom {
+    top: 191%;
+}
+.rightTop {
+    top: 159%;
+}
+.top {
+    top: 145%;
+}
+.center {
+    top: 175%
+}
+
+}
+
+/*@media(min-width:1170px) and (max-width:1220px) {
+.leftTop {
+    top: 164%;
+}
+.leftBottom {
+    top: 196%;
+}
+.bottom {
+    top: 209%;
+}
+.rightBottom {
+    top: 196%;
+}
+.rightTop {
+    top: 164%;
+}
+.top {
+    top: 150%;
+}
+.center {
+    top: 180%
+}
+
+}
+
+@media(min-width:1220px) and (max-width:1280px) {
+.leftTop {
+    top: 169%;
+}
+.leftBottom {
+    top: 201%;
+}
+.bottom {
+    top: 214%;
+}
+.rightBottom {
+    top: 201%;
+}
+.rightTop {
+    top: 169%;
+}
+.top {
+    top: 155%;
+}
+.center {
+    top: 185%
+}
+
+}
+
+@media(min-width:1280px) and (max-width:1327px) {
+.leftTop {
+    top: 174%;
+}
+.leftBottom {
+    top: 206%;
+}
+.bottom {
+    top: 219%;
+}
+.rightBottom {
+    top: 206%;
+}
+.rightTop {
+    top: 174%;
+}
+.top {
+    top: 160%;
+}
+.center {
+    top: 190%
+}
+
+}*/
